@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is my web page</title>
+    <style>
+        body{
+    background-image: url(images/meet1234.jpg);
+    background-size: 1300px;
+}
+marquee{
+    text-align: center;
+    background-color: rgb(224, 224, 145);
+    color: black;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+h2{
+    text-align: center;
+    border: 2px solid purple;
+    background-color: rgb(180, 129, 92);
+}
+p{
+    background-color: silver;
+}
+form a{
+    text-decoration: none;
+    border: 2px solid plum;
+    background-color: rgb(124, 124, 93);
+    color: rgb(52, 247, 14);
+}
+form{
+    border: 2px solid peru;
+    text-align: center;
+    background-color: pink;
+    width: 600px;
+    margin: auto;
+}
+form label{
+    border: 2px solid purple;
+    background-color: rgb(121, 98, 98);
+    color: salmon;
+}
+.meet{
+     border: 2px solid black;
+     background-color: rgb(138, 138, 202);
+}
+.mp{
+    border: 2px solid black;
+    text-align: center;
+    color: #000;
+    margin: 4px;
+    background-color: aquamarine;
+
+}
+#meet{
+     float: right;
+     width: 48%;
+}
+#meetc{
+      float: left;
+      width: 48%;
+}
+#meetp{
+    clear: both;
+    width: 100%;
+}
+*{
+     box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.wps{
+    background-color: black;
+    border-radius: 30px;
+    width: 1333px;
+    float: right;
+    position: fixed;
+}
+.wps li{
+    list-style: none;
+    width: 10%;
+    font-size: 25px;
+    border-radius: 10px;
+    float: right;
+}
+.wps ul{
+    overflow: auto;
+}
+.wps li a:hover{
+    background-color: royalblue;
+    color: red;
+}
+.wps li a:active{
+    background-color: saddlebrown;
+}
+.wps li a{
+    text-decoration: none;
+    color: chocolate;
+}
+.poonam{
+    color: brown;
+    float: left;
+}
+img{
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+.top{
+    margin: auto;
+    width: 60%;
+}
+.box{
+    border: 2px solid palevioletred;
+    background-color: plum;
+    margin: 4px;
+    padding: 23px;
+    display: inline-block;
+    width: 400px;
+    box-sizing: border-box;
+}
+.pvc{
+    background-color: chartreuse;
+}
+.bhai{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+}
+#bhai1{
+    position: absolute;
+}
+.ben{
+    border: 2px solid black;
+    background-color: brown;
+}
+.boxa{
+    width: 170px;
+    height: 170px;
+}
+#box-1{
+    background-color: powderblue;
+    position: relative;
+    z-index: 34;
+    top: 49px;
+}
+#box-2{
+    background-color: rgb(29, 214, 60);
+    position: relative;
+    z-index: 12;
+    top: 14px;
+}
+#box-3{
+    background-color: rgb(70, 19, 209);
+}
+#box-4{
+    background-color: rgb(212, 24, 24);
+}
+.border{
+    border: 2px solid red;
+    margin: 10px;
+    background-color: rgb(121, 98, 98);
+    text-align: center;
+    transition: all .5s;
+    animation-name: meet;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes meet{
+    form{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}
+.border:hover{
+    transform: scale(1.1);
+}
+.nsc{
+    display: flex;
+    border: 2px solid red;
+    width: 100%;
+    height: 544px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(212, 40, 97);
+}
+.dfg{
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+}
+.tyu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(180, 129, 92);
+    animation-name: meet;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+.tyu:hover{
+    transform: rotate(360deg);
+}
+.gird{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'saction saction saction meet1';
+}
+.imp{
+    background-color: darkcyan;
+    padding: 12px 23px;
+}
+#navbar{
+    grid-area: navbar;    
+}
+#saction{
+    grid-area: saction;
+}
+#meet1{
+    grid-area: meet1;
+}
+@media  (max-width:300px) {
+    body{
+        background-color: black;
+    }
+}
+@media (min-width:300px) and (max-width:500px) {
+    body{
+        background-color: red;
+    }
+}
+@media (min-width:500px) and (max-width:700px) {
+    body{
+        background-color: rgb(70, 19, 209);
+    }
+}
+@media (min-width:700px) and (max-width:1500px) {
+    body{
+        background-color: greenyellow;
+    }
+}
+    </style>
+    <header>
+        <div class="wps">
+            <ul class="wps">
+                <li><a href="">home</a></li>
+                <li><a href="">meet</a></li>
+                <li><a href="">mayu</a></li>
+                <div class="poonam">
+                    <h3>THIS IS MENU &xrArr;</h3>
+                </div>
+            </ul>
+        </div>
+    </header>
+    <br><br><br><br><br><br>
+    <marquee>MEET CHAUDHARI</marquee>
+</head>
+
+<body>
+    <header class="top">
+        <img src="" alt="" srcset="">
+        <h3>HI MEET CHAUDHARI 123</h3>
+    </header>
+    <div class="vp">
+        <div class="box">
+            <h4>meet chaudhari</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex debitis harum porro odit nam vel
+                impedit sequi. Aliquam aliquid dignissimos quaerat natus reiciendis laboriosam officia ad maiores,
+                dolorum consequatur.</p>
+        </div>
+        <div class="box">
+            <h4>meet chaudhari</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex debitis harum porro odit nam vel
+                impedit sequi. Aliquam aliquid dignissimos quaerat natus reiciendis laboriosam officia ad maiores,
+                dolorum consequatur.</p>
+        </div>
+        <div class="box">
+            <h4>meet chaudhari</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex debitis harum porro odit nam vel
+                impedit sequi. Aliquam aliquid dignissimos quaerat natus reiciendis laboriosam officia ad maiores,
+                dolorum consequatur.</p>
+        </div>
+    </div>
+    <h2>HI MEET CHAUDHARI</h2>
+    <strong class="pvc">ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque cupiditate, inventore
+        aliquid
+        blanditiis minus ullam aperiam, provident quas veritatis asperiores minima consectetur! Animi magni quas
+        consectetur consequatur, rerum temporibus?</strong>
+    <form action="backend.php" id="form">
+        <label for="text">name:</label>
+        <br><input type="text" name="text" id="text"><br><br>
+        <label for="email">email:</label>
+        <br><input type="email" name="email" id="email"><br><br>
+        <label for="write your review">write your review:</label>
+        <br><textarea rows="15" cols="40" type="write your review" name="write your review"
+            id="write your review"></textarea><br><br>
+        <a href="https://dev.w3.org/html5/html-author/charref" target="blank">click here</a>
+    </form>
+    <br><br><br>
+    <hr>
+    <div class="meet">
+        <h1>welcome to my stor</h1>
+        <div class="mp" id="meet">
+            <h3>MEET</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quia esse doloremque eos
+                blanditiis hic voluptatem impedit unde, laudantium nulla quod eaque soluta tenetur? Sed autem
+                sint nemo laboriosam ad?</p>
+        </div>
+        <div class="mp" id="meetc">
+            <h3>MEET</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quia esse doloremque eos
+                blanditiis hic voluptatem impedit unde, laudantium nulla quod eaque soluta tenetur? Sed autem
+                sint nemo laboriosam ad?</p>
+        </div>
+        <div class="mp" id="meetp">
+            <h3>MEET</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quia esse doloremque eos
+                blanditiis hic voluptatem impedit unde, laudantium nulla quod eaque soluta tenetur? Sed autem
+                sint nemo laboriosam ad?</p>
+        </div>
+    </div>
+    <div class="ben">
+        <div class="bhai" id="bhai1"></div>
+        <div class="bhai" id="bhai2"></div>
+        <div class="bhai" id="bhai3"></div>
+        <div class="bhai" id="bhai4"></div>
+    </div>
+    <div class="boxa" id="box-1"></div>
+    <div class="boxa" id="box-2"></div>
+    <div class="boxa" id="box-3"></div>
+    <div class="boxa" id="box-4"></div>
+
+    <div class="nsc">
+        <div class="border" id="border-1">
+            <h1>ndjkhyfg,hjgf,jhghbhjb</h1>
+        </div>
+        <div class="border" id="border-2">
+            <h1>lgjk,ygg,jh,kjhgkhhgkhkhk</h1>
+        </div>
+        <div class="border" id="border-3">
+            <h1>lgjk,ygg,jh,kjhgkhhgkhkhk</h1>
+        </div>
+    </div>
+    <div class="lkj">
+        <div class="asdf">
+            Lorem ipsum dolor sit amet.
+        </div>
+    </div>
+    <div class="tyu">
+        <div class="dfg">
+            this is a box
+        </div>
+    </div>
+    <div class="gird">
+        <div id="navbar" class="imp">meet1</div>
+        <div id="saction" class="imp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eaque itaque vel
+            architecto consectetur ex libero? Animi nulla consequatur reiciendis blanditiis, nobis magnam. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Cumque fugit quis repellendus neque asperiores quaerat harum
+            delectus iusto, obcaecati provident ipsa numquam in dolor corrupti unde pariatur necessitatibus dolorem
+            similique ullam alias, eos sunt qui eum accusamus. Incidunt, quibusdam? Architecto totam repellendus quidem
+            neque molestias hic nihil tempora perspiciatis optio atque! Iste molestiae eaque minima impedit iure animi
+            sed cumque eos! Neque consectetur tenetur voluptates quaerat nisi, repudiandae eligendi dicta velit nam
+            nesciunt quasi repellat cupiditate et ut commodi vitae quam nulla at. Eligendi, cum quibusdam dolor
+            recusandae eum ratione nam dolores similique illum incidunt placeat ducimus consequatur fuga numquam
+            voluptatum, excepturi rem dolorum reprehenderit ea dolore nostrum maiores ipsam eveniet. Autem perspiciatis
+            assumenda quo repudiandae unde dolor animi neque et molestiae eum. Ducimus sequi obcaecati excepturi
+            aspernatur repudiandae aliquid. Odio ad earum libero nostrum officia. Sunt, illo repellendus quidem tempora
+            a harum provident eveniet? Tenetur, voluptas. Ratione eligendi sequi ex iste voluptatum aliquam! Id tenetur,
+            aliquid nam molestias nulla neque exercitationem vitae. Provident quam dolorem incidunt, facilis debitis
+            nemo voluptatum, cum iure magnam officia, exercitationem blanditiis sequi pariatur error magni in
+            consequuntur molestiae quos esse expedita aliquam quibusdam officiis minus assumenda? Consequatur porro
+            nesciunt recusandae iure aliquid eveniet dolore obcaecati, omnis eum nobis excepturi optio sapiente quasi
+            animi odio facere laboriosam voluptatibus repellat laborum asperiores distinctio! Excepturi inventore quia,
+            dolorum quibusdam obcaecati ad. Laboriosam perferendis placeat quos corporis harum recusandae, aliquid
+            distinctio dolorem ea dignissimos, veniam quisquam! Quis obcaecati facere vel alias provident delectus saepe
+            tempora debitis minus pariatur voluptatum nemo doloremque repellendus earum facilis laborum, impedit
+            laudantium blanditiis. Corporis ad quasi reprehenderit ullam est esse repellendus, aspernatur beatae
+            possimus veritatis sapiente temporibus voluptates praesentium quo doloribus natus molestiae aut illum earum
+            fuga voluptate laborum! Optio debitis officiis aspernatur corrupti natus maiores ea non quae error
+            doloremque nihil aperiam suscipit quod perferendis facilis molestiae, voluptates laudantium earum hic modi
+            at. Dignissimos nostrum magnam eos incidunt ex impedit dicta natus ratione debitis, minima architecto
+            aspernatur asperiores, rerum perspiciatis molestias odit, aut alias corrupti sapiente? Quaerat explicabo nam
+            asperiores doloribus deserunt. Doloremque omnis sed mollitia temporibus iste unde sunt architecto. Veniam
+            voluptate, delectus, odit consectetur autem tempora veritatis aspernatur odio necessitatibus commodi,
+            perferendis omnis iste suscipit beatae. Exercitationem iure, necessitatibus facilis corrupti, fugit vitae
+            fugiat inventore a tempore dolorum maxime eos reprehenderit distinctio maiores excepturi beatae in labore
+            minima dicta officiis repudiandae. Beatae iure accusamus consequuntur tempora, veritatis officia sunt
+            voluptatem!</div>
+        <div id="meet123" class="imp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo enim ea a.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit excepturi adipisci, qui mollitia et
+            deserunt rerum minima reiciendis dicta similique nobis voluptas perspiciatis fuga est natus iure fugiat, non
+            exercitationem quas illo eum laborum sapiente accusantium sequi. Ad tenetur voluptates laboriosam dolore
+            corporis ducimus, quos, provident sapiente exercitationem quidem itaque non, autem laudantium iusto
+            temporibus libero nemo? Ipsam, obcaecati. Iusto itaque nostrum quasi praesentium deserunt ut nemo, ratione
+            nesciunt vitae sit esse animi explicabo exercitationem ducimus molestias aliquam illo tenetur molestiae
+            recusandae, architecto voluptatem nisi iste veniam. Eos libero ducimus deserunt fugiat, sed blanditiis
+            corrupti. Ratione iste eum dicta omnis, neque quis voluptatibus ipsa officia maiores, reprehenderit aliquam
+            et? Blanditiis doloribus numquam voluptatem mollitia illum libero dolore natus commodi magni, perspiciatis
+            provident ut esse iusto placeat odio rerum, ratione adipisci id facere magnam sit delectus asperiores.
+            Quidem reprehenderit facere dolore inventore corporis suscipit. Fugiat, veniam reiciendis quam molestiae est
+            odio consectetur necessitatibus quisquam dolore cum vero veritatis itaque ad magnam praesentium fuga ab.
+        </div>
+    </div>
+    <div class="cont">
+        <h1>Meet chaudhari</h1>
+        <div id="counter"></div>
+        <div id="cont"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias facere provident quod corporis,
+            eaque accusantium ex repudiandae doloribus, eligendi suscipit sunt voluptates optio ea quis explicabo, quo
+            doloremque? Animi rerum beatae corrupti vel?</p>
+        <!-- java script is starting here for beautiful website with javascript  -->
+        <script>
+            let age = prompt("Enter your age", "18")
+            if (age < 18) {
+                alert("Meet chaudhari")
+            }
+            else {
+                alert("M.P CHAUDHARI")
+            }
+            let meet = alert("this is delete for me")
+            if (meet) {
+                console.log("meet chaudhari");
+            }
+            else {
+                console.log("M.P CHAUDHARI");
+            }
+            // let i = 0;
+            // for (let i = 0; i < 5; i++) {
+            //     console.log(i);
+            // }
+            let frd = ["Meet", "mayu", "poonam", "bhavin"];
+            // for (let index = 0; index < frd.length; index++) {
+            //     console.log("hellow frd ," + frd[index]);
+            // }
+            // frd.forEach(element => {
+            //     console.log("HELLOW FRD," + element + "meet chaudhari javaseript");
+            // });
+            for (element of frd) {
+                console.log("HELLOW FRD," + element + "meet chaudhari javaseript");
+            }
+            let asd = {
+                name: "meet",
+                salary: "2",
+                channel: "cwm"
+            }
+            console.log(asd);
+            let i =0;
+            while (i< 4) {
+                console.log(`${i} Meet chaudhari`);
+                i++;
+            }
+            
+            let gird =document.getElementsByClassName('gird');
+            console.log(gird);
+        </script>
+</body>
+
+</html>
