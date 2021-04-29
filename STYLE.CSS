@@ -1,0 +1,657 @@
+/* . = CLASS
+
+# = ID */
+
+
+      /* THIS IS OTHER HTML FILE CSS STYLE  */NO:::1
+
+    =>  =>  THIS CSS IS MEET.HTML FILE   <=  <=
+
+ /* THIS IS POSITION */
+ *{
+    position: relative;
+    position: sticky;
+    position: static;
+    position: absolute;
+    position: fixed;
+ }
+
+        body{
+    background-image: url(images/meet1234.jpg);
+    background-size: 1300px;
+}
+marquee{
+    text-align: center;
+    background-color: rgb(224, 224, 145);
+    color: black;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+h2{
+    text-align: center;
+    border: 2px solid purple;
+    background-color: rgb(180, 129, 92);
+}
+p{
+    background-color: silver;
+}
+form a{
+    text-decoration: none;
+    border: 2px solid plum;
+    background-color: rgb(124, 124, 93);
+    color: rgb(52, 247, 14);
+}
+form{
+    border: 2px solid peru;
+    text-align: center;
+    background-color: pink;
+    width: 600px;
+    margin: auto;
+}
+form label{
+    border: 2px solid purple;
+    background-color: rgb(121, 98, 98);
+    color: salmon;
+}
+.meet{
+     border: 2px solid black;
+     background-color: rgb(138, 138, 202);
+}
+.mp{
+    border: 2px solid black;
+    text-align: center;
+    color: #000;
+    margin: 4px;
+    background-color: aquamarine;
+
+}
+#meet{
+     float: right;
+     width: 48%;
+}
+#meetc{
+      float: left;
+      width: 48%;
+}
+#meetp{
+    clear: both;
+    width: 100%;
+}
+*{
+     box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.wps{
+    background-color: black;
+    border-radius: 30px;
+    width: 1333px;
+    float: right;
+    position: fixed;
+}
+.wps li{
+    list-style: none;
+    width: 10%;
+    font-size: 25px;
+    border-radius: 10px;
+    float: right;
+}
+.wps ul{
+    overflow: auto;
+}
+.wps li a:hover{
+    background-color: royalblue;
+    color: red;
+}
+.wps li a:active{
+    background-color: saddlebrown;
+}
+.wps li a{
+    text-decoration: none;
+    color: chocolate;
+}
+.poonam{
+    color: brown;
+    float: left;
+}
+img{
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+.top{
+    margin: auto;
+    width: 60%;
+}
+.box{
+    border: 2px solid palevioletred;
+    background-color: plum;
+    margin: 4px;
+    padding: 23px;
+    display: inline-block;
+    width: 400px;
+    box-sizing: border-box;
+}
+.pvc{
+    background-color: chartreuse;
+}
+.bhai{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+}
+#bhai1{
+    position: absolute;
+}
+.ben{
+    border: 2px solid black;
+    background-color: brown;
+}
+.boxa{
+    width: 170px;
+    height: 170px;
+}
+#box-1{
+    background-color: powderblue;
+    position: relative;
+    z-index: 34;
+    top: 49px;
+}
+#box-2{
+    background-color: rgb(29, 214, 60);
+    position: relative;
+    z-index: 12;
+    top: 14px;
+}
+#box-3{
+    background-color: rgb(70, 19, 209);
+}
+#box-4{
+    background-color: rgb(212, 24, 24);
+}
+.border{
+    border: 2px solid red;
+    margin: 10px;
+    background-color: rgb(121, 98, 98);
+    text-align: center;
+    transition: all .5s;
+    animation-name: meet;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes meet{
+    form{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}
+.border:hover{
+    transform: scale(1.1);
+}
+.nsc{
+    display: flex;
+    border: 2px solid red;
+    width: 100%;
+    height: 544px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(212, 40, 97);
+}
+.dfg{
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+}
+.tyu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(180, 129, 92);
+    animation-name: meet;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+.tyu:hover{
+    transform: rotate(360deg);
+}
+.gird{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'saction saction saction meet1';
+}
+.imp{
+    background-color: darkcyan;
+    padding: 12px 23px;
+}
+#navbar{
+    grid-area: navbar;    
+}
+#saction{
+    grid-area: saction;
+}
+#meet1{
+    grid-area: meet1;
+}
+@media  (max-width:300px) {
+    body{
+        background-color: black;
+    }
+}
+@media (min-width:300px) and (max-width:500px) {
+    body{
+        background-color: red;
+    }
+}
+@media (min-width:500px) and (max-width:700px) {
+    body{
+        background-color: rgb(70, 19, 209);
+    }
+}
+@media (min-width:700px) and (max-width:1500px) {
+    body{
+        background-color: greenyellow;
+    }
+}
+
+
+
+
+
+
+
+
+          /* THIS IS OTHER HTML FILE CSS STYLE */ NO:::2
+
+       =>  => THIS CSS IS MAYU.HTML FILE <=   <=
+
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-size: 1500px 900px;
+        }
+
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            display: inline-block;
+            line-height: 0px;
+            position: fixed;
+            color: pink;
+        }
+
+        .right {
+            margin: 12px auto;
+            width: 500px;
+            left: 35%;
+            display: block;
+            position: fixed;
+            background-color: rgb(19, 248, 11);
+        }
+
+        .mid {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            position: fixed;
+        }
+
+        .navbar {
+            display: inline-block;
+            position: static;
+            flex-wrap: wrap;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover {
+            color: tomato;
+            background-color: teal;
+            text-decoration: underline;
+        }
+
+        .navbar li {
+            list-style: none;
+        }
+
+        .left img {
+            width: 23px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            padding: 4px 14px;
+            cursor: pointer;
+            border: 2px solid snow;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            background-color: rgb(102, 67, 67);
+        }
+
+        .mayu {
+            border: 2px solid peru;
+            width: 33%;
+            margin: 2px auto;
+            padding: 50px 50px;
+            border-radius: 10px;
+            float: center;
+            text-align: center;
+            color: rgb(102, 67, 67);
+            background-color: skyblue;
+        }
+
+        .MPC {
+            text-align: center;
+        }
+
+        .border {
+            margin: 10px;
+            background-color: rgba(235, 226, 226, 0.911);
+            text-align: center;
+            width: 250px;
+            box-shadow: 10px 13px 40px rgba(235, 226, 226, 0.800)
+        }
+
+        .border:hover {
+            transform: scale(1.1);
+        }
+
+        .nsc {
+            display: flex;
+            width: 100%;
+            height: 544px;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 30px;
+        }
+
+        #border-1 {
+            display: inline-block;
+            background-color: rgba(235, 226, 226, 0.911);
+            top: 30px;
+            position: relative;
+        }
+
+        #abc h1,
+        #abc p {
+            display: inline;
+            color: seagreen;
+        }
+
+        #border-1 h4 {
+            color: plum;
+        }
+
+        .qwe {
+            color: rosybrown;
+        }
+
+        #border-1 s {
+            color: saddlebrown;
+        }
+
+        #border-2::before {
+            content: 'MOST POPULAR';
+            background-color: rgb(206, 130, 130);
+            border-bottom: 2px solid red;
+            font-size: 33px;
+            width: auto;
+        }
+
+        #border-3 {
+            display: inline-block;
+            background-color: rgba(235, 226, 226, 0.911);
+            top: 30px;
+            position: relative;
+        }
+
+        .mnb h1 {
+            font-size: 36px;
+            top: 20px;
+            left: 50px;
+            display: block;
+        }
+
+        .mnb {
+            margin: auto 100px;
+            width: 1600px;
+            display: block;
+            height: 700px;
+            text-align: left;
+            width: 500px;
+            top: 300px;
+            position: relative;
+            left: 300px;
+        }
+
+        .asd {
+            background-image: url(images/meet1234.jpg);
+            background-size: 1600px 700px;
+            border: 2px solid red;
+        }
+
+        .yui {
+            border-radius: 30px;
+            background-color: rgb(9, 33, 248);
+            font-size: 20px;
+            width: 250px;
+            height: 50px;
+        }
+
+        #abc ul li p {
+            color: red;
+            list-style: none;
+            text-align: left;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        /* THIS IS OTHER  HTML FILE CSS STYLE */  NO:::3
+
+     =>  =>   THIS CSS IS POONAM.HTML FILE  <=  <=
+
+
+        .meet {
+            list-style: none;
+            display: flex;
+            left: 100%;
+            position: relative;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .meet a{
+            width: 100px;
+            font-size: 30px;
+            text-decoration: none;
+            left: 50%;
+        }
+        #navbar{
+            display: flex;
+            border: 2px solid purple;
+            align-items: center;
+            background-color: palegoldenrod;
+            width: 100%;
+            position: fixed;
+            border-radius: 20px;
+        }
+        #search{
+            position: relative;
+            left: 164%;
+            font-size: 25px;
+        }
+        .meet a:hover{
+            text-decoration: overline;
+            background-color: rgb(88, 126, 126);
+            color: palevioletred;
+        }
+        .mayu{
+            background-image: url(images/meet9.jfif);
+            background-size: 1600px 700px;
+            height: 700px;
+        }
+        .mayup{
+            width: 500px;
+            text-align: justify;
+            position: relative;
+            color: black;
+            top: 60%;
+            left: 20%;
+        }
+        .bhai{
+            display: flex;
+            background-image: url(images/meet8.jfif);
+            justify-content: space-evenly;
+        }
+        #qwe{
+            background-color: rosybrown;
+            width: 26.66%;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            left: 10px;
+        }
+        #rty{
+            background-color: rosybrown;
+            width: 26.66%;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        #asd{
+            background-color: rosybrown;
+            width: 26.66%;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        #asd img{
+            height: 30%;
+            width: 30%;
+            border-radius: 10px;
+        }
+        #rty img{
+            height: 30%;
+            width: 30%;
+            border-radius: 10px; 
+        }
+        #qwe img{
+            height: 30%;
+            width: 30%;
+            border-radius: 10px;
+        }
+        .ghj{
+            text-align: center;
+            color: brown;
+        }
+        .bhaip{
+            display: flex;
+            justify-content: space-around;
+            background-color: palevioletred;
+        }
+        #rfv img{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 449px;
+            border-radius: 10px;
+        }
+        #poonam img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        #bhavin img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        #pbhai img{
+            width: 100px;
+            height: 100px; 
+            border-radius: 10px;
+        }
+        #awm img{
+            width: 100px;
+            height: 100px;
+            right: 440px;
+            border-radius: 10px;
+            position: relative;  
+        }
+        .mpn{
+            /* background-image: url(images/meet13.png); */
+            text-align: center;
+            color: rgb(214, 176, 24);
+        }
+        #text{
+            font-size: 20px;
+            text-align: center;
+        }
+        #email{
+            font-size: 20px;
+            text-align: center;
+        }
+        #number{
+            font-size: 20px;
+            text-align: center;  
+        }
+        #sear{
+            font-size: 20px;
+            text-align: center;
+        }
+        .box{
+            text-decoration: none;
+            border: 2px solid red;
+            background-color: blue;
+            color: cornsilk;
+            font-size: 20px;
+            transition: 1s all ease-in-out;
+        }
+        .box:hover{
+            transform: scale(1.1);
+        }
+        #searc{
+            position: relative;
+            left: -108%;
+            font-size: 25px;
+        }
+    
